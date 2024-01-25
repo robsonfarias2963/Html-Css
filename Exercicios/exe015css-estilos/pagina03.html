@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Segunda Pagina</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Add your styles here if needed */
+  </style>
+</head>
+<body>
+
+  <h1>The input formenctype attribute</h1>
+  <p>The formenctype attribute specifies how the form data should be encoded when submitted.</p>
+
+  <form action="/your-server-endpoint" method="post">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <input type="submit" value="Submit">
+    <input type="submit" formenctype="multipart/form-data" value="Submit as Multipart/form-data">
+  </form>
+
+  <h1>My First JavaScript</h1>
+  <p id="demo">JavaScript can change the style of an HTML element.</p>
+
+  <script>
+    function myFunction() {
+      var demoElement = document.getElementById("demo");
+      demoElement.style.fontSize = "25px";
+      demoElement.style.color = "red";
+      demoElement.style.backgroundColor = "yellow";
+    }
+  </script>
+
+  <button type="button" onclick="myFunction()">Click Me!</button>
+
+</body>
+</html>

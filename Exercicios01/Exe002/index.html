@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Meus Exemplo em CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    
+    p.contas {
+  border: 2px solid green;
+  padding: 5px;
+}
+   p.pagar {
+  border: 2px solid green;
+  padding: 5px;
+}
+   p.dividas {
+  border: 2px solid green;
+  padding: 5px;
+}
+p.round1 {
+  border: 2px solid green;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 100px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 800px) {
+  nav, article {
+    width: 150%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>CONTAS QUE TENHO A PAGAR</h2>
+<p class="contas">CONTAS QUE TENHO A PAGAR</p>
+<p class ="pagar">PRETENDO PAGAR TODAS AS CONTAS.</p>
+<header>
+  <h2>CONTAS</h2>
+</header>
+
+<section>
+   <nav>
+  <a href="/CONTAS/">CONTAS</a> |
+  <a href="/DIVIDAS/">DIVIDAS</a> |
+  <a href="/PAGAR/">PAGAR</a> |
+</nav> 
+  <article>
+    <h1>CONTAS</h1>
+    <p>CONTAS QUE JA FORAM PAGAS.</p>
+    <style>
+.CONTAS {
+  background-color: green ;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+</style>
+<table style="width:100%">
+  <tr>
+    <th colspan="2">CONTAS</th>
+    <th>VALORES</th>
+  </tr>
+  <tr>
+    <td>Jessica</td>
+    <td>Mendes</td>
+    <td>R$300,00</td>
+  </tr>
+  <tr>
+    <td>Pensao</td>
+    <td>Leticia</td>
+    <td>R$600,00</td>
+  </tr>
+    <td>Venho</td>
+    <td> Lambada</td>
+    <td>R$280,00</td>
+  </tr>
+    <td> Tenis </td>
+    <td> Leticia</td>
+    <td> R$100,00</td>
+  </tr>
+  <td> Internet </td>
+    <td> Vero</td>
+    <td> R$122,00</td>
+  </tr>
+  <td> Amigos  </td>
+    <td> Emprestimo</td>
+    <td> R$150,00</td>
+  </tr>
+  <td> Faculdade </td>
+    <td> Uniasselvi</td>
+    <td> R$450,00</td>
+  </tr>
+  <td> luz </td>
+    <td> Angelina </td>
+    <td> R$180,00</td>
+  </tr>
+  <tr align="center"  bgcolor="#90ee90">
+  <td> Total contas a pagar</td>
+    <td> total contas</td>
+    <td> R$2,182,00</td>
+  </tr>
+  <tr align="center"  bgcolor="00ffff">
+  <td> Valor a receber </td>
+    <td> Valor INSS</td>
+    <td> R$5,800,00</td>
+  </tr>
+  <tr align="center"  bgcolor="24ffff">
+  <td> Valor que sobrou para eu e a maezinha </td>
+    <td> Sobrou </td>
+    <td> R$3,618,00</td>
+  </tr>
+  
+</table>
+  </article>
+</section>
+</body>
+</html>
+
