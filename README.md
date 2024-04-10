@@ -1,4 +1,3 @@
-# Html-Css
- Curso de Html-css video Gustavo guanabara
-
- Estou aprendendo a criar sites e agora vou gerenciar meus repositorios.
+Sou Robson de farias
+Sou estudante de Analise e Dsenvolvimento de Sistemas pela Unifael.
+No momento estou aprendendo Html,Css,javaScript,Python,sql.
